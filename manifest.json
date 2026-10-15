@@ -1,0 +1,100 @@
+{
+  "manifest_version": 3,
+  "name": "Minecraft x Charcoal",
+  "short_name": "MC Charcoal",
+  "version": "1.0.0",
+  "description": "A neutral charcoal Chrome theme with a personal Minecraft lagoon new-tab wallpaper.",
+  "theme": {
+    "images": {
+      "theme_ntp_background": "images/minecraft-lagoon.png"
+    },
+    "colors": {
+      "frame": [
+        9,
+        9,
+        9
+      ],
+      "frame_inactive": [
+        16,
+        16,
+        16
+      ],
+      "toolbar": [
+        23,
+        23,
+        23
+      ],
+      "tab_text": [
+        245,
+        245,
+        245
+      ],
+      "tab_background_text": [
+        163,
+        163,
+        163
+      ],
+      "bookmark_text": [
+        212,
+        212,
+        212
+      ],
+      "ntp_text": [
+        245,
+        245,
+        245
+      ],
+      "ntp_link": [
+        212,
+        212,
+        212
+      ],
+      "ntp_header": [
+        23,
+        23,
+        23
+      ],
+      "toolbar_button_icon": [
+        212,
+        212,
+        212
+      ],
+      "toolbar_text": [
+        235,
+        235,
+        235
+      ],
+      "omnibox_background": [
+        41,
+        41,
+        41
+      ],
+      "omnibox_text": [
+        245,
+        245,
+        245
+      ],
+      "button_background": [
+        36,
+        36,
+        36
+      ],
+      "background_tab": [
+        36,
+        36,
+        36
+      ]
+    },
+    "tints": {
+      "buttons": [
+        -1,
+        -1,
+        -1
+      ]
+    },
+    "properties": {
+      "ntp_background_alignment": "center center",
+      "ntp_background_repeat": "no-repeat"
+    }
+  }
+}
