@@ -1,5 +1,11 @@
 # Minecraft × Charcoal
 
+> [!IMPORTANT]
+> **Installing on macOS:** A GitHub ZIP is source code, not a drag-and-drop Chrome installer. Chrome on macOS also restricts installing locally distributed `.crx` files. The supported route is **Chrome → chrome://extensions → Developer mode → Load unpacked** and select the extracted folder with `manifest.json`. The wallpaper at `images/minecraft-lagoon.png` must be included. **It is currently missing from this repository**, so a GitHub ZIP alone does not yet work. Use the separately distributed complete source ZIP until the original PNG is uploaded here.
+>
+> To create a packaged `.crx` from the complete source on your Mac, open `chrome://extensions`, enable Developer mode, click **Pack extension**, and select the theme folder. Chrome will write a `.crx` and a private `.pem` key. **Never commit or distribute the `.pem` file.** The `.crx` is a real package, but macOS Chrome may refuse direct drag-and-drop installation. A Chrome Web Store listing is the standard one-click installation method for other users.
+
+
 A Chrome theme I made because most dark themes were either too gray or had a blue tint I didn't want. This one sticks to neutral blacks and charcoal, with my Minecraft lagoon screenshot on the new tab page.
 
 The browser stays out of the way. The wallpaper gets to be the colorful part.
